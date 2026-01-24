@@ -37,7 +37,7 @@
     "url": "https://github.com/ethereum-optimism/optimism.git"
   },
   "dependencies": {
-    "ethers": "^5.7.2",
+    "ethers": "^6.0.0",
     "node-fetch": "^2.6.1",
     "forta-agent": "^0.1.1"
   },
@@ -47,7 +47,7 @@
     "@types/nodemon": "^1.19.0",
     "chai": "^4.3.4",
     "nodemon": "^2.0.8",
-    "ts-mocha": "^10.0.0",
+    "ts-mocha": "^11.0.0",
     "typescript": "^4.3.4"
   },
   "chainIds": [
