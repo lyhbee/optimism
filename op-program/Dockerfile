@@ -22,7 +22,7 @@ ARG TARGETOS TARGETARCH
 
 RUN make op-program VERSION="$VERSION" GOOS=$TARGETOS GOARCH=$TARGETARCH
 
-FROM alpine:3.16
+FROM alpine:3.23.3
 
 COPY --from=builder /app/op-program/bin/op-program /usr/local/bin
 
